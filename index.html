@@ -368,33 +368,38 @@
         <!--modal form-->
              <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
              <form class="contact-form">
-                 <label for="name">Имя</label>
+                 <label for="name" class="label-name">Имя</label>
                  <span class="modal-wraper">
                      <input type="text" name="" id="name" class="modal-input">
-                    <span class="modal-icon"> 
-                        <svg class="icon-form"> <use href="" class="icom-form-img"></use> </svg>
-                    </span>
+                     <svg class="icon-form"> 
+                         <use href="./img/sprite.svg#icon-form-name" class="icom-form-img"></use> </svg>
                  </span>
 
-                 <label for="telephone">Телефон</label>
+                 <label for="telephone" class="label-name">Телефон</label>
                  <span class="modal-wraper">
                      <input type="tel" name="telephone" id="telephone" class="modal-input">
-                    <span class="modal-icon"></span>
+                     <svg class="icon-form icon-tel">
+                            <use href="./img/sprite.svg#icon-form-tel" class="icom-form-img"></use>
+                     </svg>
                     </span>
 
-                 <label for="email">Почта</label>
+                 <label for="email" class="label-name">Почта</label>
                  <span class="modal-wraper"> 
                      <input type="email" name="email-address" id="email" class="modal-input">
-                     <span class="modal-icon"></span>
-                    </span>
+                     <svg class="icon-form icon-email">
+                            <use href="./img/sprite.svg#icon-form-email" class="icom-form-img"></use>
+                     </svg>
+                 </span>
 
-                 <label for="coment">Комментарий</label>
+                 <label for="coment" class="label-name">Комментарий</label>
                  <textarea name="coment" id="coment" placeholder="Введите текст" class="texteria-coment"></textarea>
 
-                 <input type="checkbox" name="agreemet-ifo" id="agreemet" class="checkbox-agreement">
-                 <label for="agreemet"> Соглашаюсь с рассылкой и принимаю 
-                     <a href="">Условия договора</a>
+                 <span class="agreement-box">
+                     <input type="checkbox" name="agreemet-ifo" id="agreemet" class="">
+                     <label for="agreemet" class="label-chekbox-name"> Соглашаюсь с рассылкой и принимаю 
+                         <a href="" class="link-agreement">Условия договора</a>
                  </label>
+                 </span>
                  <button type="submit" class="submit-button">Отправить</button>
              </form>
          </div>
