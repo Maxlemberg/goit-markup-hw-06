@@ -306,9 +306,9 @@
                 </ul>
                 </div>
             </section>
-    </main>
+     </main>
 
-    <!--Подвал-->
+     <!--Подвал-->
      <footer class="footer-section">
          <div class="footer-container wraper">
              <div class="footer-box">
@@ -322,38 +322,52 @@
              </address>
             </div>
              <div class="footer-social-address">
-             <h2 class="footer-title title">присоединяйтесь</h2>
-            <ul class="social-item list">
-                <li class="social-network-box">
-                    <a href="#" class="social-network social-footer">
-                        <svg class="footer-icon icon">
-                            <use href="./img/sprite.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-network-box">
-                    <a href="#" class="social-network social-footer">
-                        <svg class="footer-icon icon">
-                            <use href="./img/sprite.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-network-box">
-                    <a href="#" class="social-network social-footer">
-                        <svg class="footer-icon icon">
-                            <use href="./img/sprite.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-network-box">
-                    <a href="#" class="social-network social-footer">
-                        <svg class="footer-icon icon">
-                            <use href="./img/sprite.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            </div>
+                 <h2 class="footer-title title">присоединяйтесь</h2>
+                     <ul class="social-item list">
+                         <li class="social-network-box">
+                             <a href="#" class="social-network social-footer">
+                                 <svg class="footer-icon icon">
+                                 <use href="./img/sprite.svg#icon-instagram"></use>
+                                 </svg>
+                             </a>
+                         </li>
+                         <li class="social-network-box">
+                             <a href="#" class="social-network social-footer">
+                                 <svg class="footer-icon icon">
+                                 <use href="./img/sprite.svg#icon-twitter"></use>
+                                 </svg>
+                             </a>
+                         </li>
+                         <li class="social-network-box">
+                             <a href="#" class="social-network social-footer">
+                                 <svg class="footer-icon icon">
+                                 <use href="./img/sprite.svg#icon-facebook"></use>
+                                 </svg>
+                            </a>
+                         </li>
+                         <li class="social-network-box">
+                             <a href="#" class="social-network social-footer">
+                                 <svg class="footer-icon icon">
+                                 <use href="./img/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                             </a>
+                         </li>
+                     </ul>
+             </div>
+             <div class="agreement-footer">
+                 <b class="agreement-footer-name">Подпишитесь на рассылку</b>
+                 <div class="agreement-box">
+                     <input type="email" name="email" placeholder="E-mail" class="email-footer-input">
+                     <div class="btn-box">
+                       <button type="submit" class="btn-footer">Подписаться</button>
+                    <div class="btn-icon">
+                       <svg class="footer-icon-send">
+                       <use href="./img/sprite.svg#icon-send"></use>
+                       </svg>
+                    </div>
+                    </div>
+                 </div>
+             </div>
          </div>
      </footer>
 
@@ -370,9 +384,9 @@
              <form class="contact-form">
                  <label for="name" class="label-name">Имя</label>
                  <span class="modal-wraper">
-                     <input type="text" name="" id="name" class="modal-input">
+                     <input type="text" name="text" id="name" class="modal-input">
                      <svg class="icon-form"> 
-                         <use href="./img/sprite.svg#icon-form-name" class="icom-form-img"></use> </svg>
+                         <use href="./img/sprite.svg#icon-vector" class="icom-form-img"></use> </svg>
                  </span>
 
                  <label for="telephone" class="label-name">Телефон</label>
@@ -392,14 +406,17 @@
                  </span>
 
                  <label for="coment" class="label-name">Комментарий</label>
-                 <textarea name="coment" id="coment" placeholder="Введите текст" class="texteria-coment"></textarea>
+                 <textarea name="coments" id="coment" placeholder="Введите текст" class="texteria-coment"></textarea>
 
-                 <span class="agreement-box">
-                     <input type="checkbox" name="agreemet-ifo" id="agreemet" class="">
-                     <label for="agreemet" class="label-chekbox-name"> Соглашаюсь с рассылкой и принимаю 
+                 <span class="checkbox-span">
+                     <input type="checkbox" name="agreemet-ifo" id="agreemet" class="agreement-checkbox visually-hidden" value="user-policy-ok">
+                     <svg class="label-agreement">
+                         <use href="./img/sprite.svg#icon-icon-check"></use>
+                     </svg>
+                     <label for="agreemet" class="label-chekbox-name"> Соглашаюсь с рассылкой и принимаю&nbsp
                          <a href="" class="link-agreement">Условия договора</a>
                  </label>
-                 </span>
+                </span>
                  <button type="submit" class="submit-button">Отправить</button>
              </form>
          </div>
