@@ -1008,9 +1008,9 @@ padding: 40px;
 
    .label-agreement {
      position: absolute;
-     top: 20px;
+     top: 2px;
      left: 0px;
-     opacity: 0;
+     opacity: 1;
      width: 16px;
      height: 16px;
    }
@@ -1021,6 +1021,10 @@ padding: 40px;
 
    .agreement-checkbox:checked + .label-agreement {
      opacity: 1;
+   }
+
+   .agreement-checkbox:checked + .label-chekbox-name::before {
+   opacity: 0;
    }
 
    /*.agreement-checkbox {
